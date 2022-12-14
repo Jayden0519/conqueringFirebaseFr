@@ -20,6 +20,7 @@
         android:layout_margin="50dp"
         android:gravity="center"/>
 
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,11 +49,28 @@
         android:drawableLeft="@drawable/ic_baseline_lock_open_24"
         android:drawablePadding="20dp" />
 
-    
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="Login"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp" />
 
-
-
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/passReset"
+        android:layout_below="@id/loginBtn"
+        android:text="Forgot Password"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
 
 
 </RelativeLayout>
